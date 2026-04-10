@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://www.iloft.xyz/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/tc-pedit-stateless-nat.html</loc>
+        <lastmod>2026-04-10T10:50:27.643Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/0-1-AI-Agent.html</loc>
+        <lastmod>2026-04-10T10:50:27.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/bye2021.html</loc>
+        <lastmod>2026-04-10T10:50:27.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/lets-encrypt-boulder-reference.html</loc>
+        <lastmod>2026-04-10T10:50:27.641Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/new-nas.html</loc>
+        <lastmod>2025-10-30T11:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/my-network-vlan.html</loc>
+        <lastmod>2024-12-21T15:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/talk.html</loc>
+        <lastmod>2023-04-19T16:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/openwrt-zerotier.html</loc>
+        <lastmod>2020-11-23T12:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/gin-token.html</loc>
+        <lastmod>2020-03-06T18:36:43.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/rpi-docker-hadoop-cluster.html</loc>
+        <lastmod>2020-03-04T10:44:56.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/Kernel-Stdio-Theory.html</loc>
+        <lastmod>2020-03-02T10:44:39.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/wd-elements-unboxing.html</loc>
+        <lastmod>2019-12-06T22:06:42.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/github-action-hexo-cos.html</loc>
+        <lastmod>2019-09-14T19:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/sars2019-5.html</loc>
+        <lastmod>2019-09-12T23:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/sars2019-4.html</loc>
+        <lastmod>2019-09-08T11:16:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/sars2019-2.html</loc>
+        <lastmod>2019-08-25T20:40:14.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/sars2019-1.html</loc>
+        <lastmod>2019-08-18T18:37:39.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/interview-record.html</loc>
+        <lastmod>2019-07-27T08:59:45.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/email-style.html</loc>
+        <lastmod>2019-07-05T16:30:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/openwrt-bridge-wifi.html</loc>
+        <lastmod>2019-06-30T12:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/travisci-hexo-cos.html</loc>
+        <lastmod>2019-06-20T16:30:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/softether-l2tp-openwrt.html</loc>
+        <lastmod>2019-03-22T12:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/dq77kb-nas.html</loc>
+        <lastmod>2019-03-16T10:16:21.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/block-isp-dns.html</loc>
+        <lastmod>2019-01-23T21:06:45.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/tensorflow-whitepaper-zh-pdf.html</loc>
+        <lastmod>2019-01-03T15:52:46.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/caddy-proxy-disqus.html</loc>
+        <lastmod>2018-12-27T11:51:34.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/apollo-disqusjs.html</loc>
+        <lastmod>2018-12-27T11:01:26.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/optimize-blog.html</loc>
+        <lastmod>2018-12-07T17:04:11.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/caddy-php.html</loc>
+        <lastmod>2018-11-02T18:38:51.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/edit-networkname.html</loc>
+        <lastmod>2018-05-09T09:41:02.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/windows-edit-ttl.html</loc>
+        <lastmod>2018-04-26T17:36:14.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/new-start.html</loc>
+        <lastmod>2016-12-25T07:28:01.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/cmdmardown.html</loc>
+        <lastmod>2015-08-29T14:08:01.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/new-domain.html</loc>
+        <lastmod>2015-08-12T11:14:37.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/open-blog.html</loc>
+        <lastmod>2015-08-12T11:14:37.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/ddos-cdn.html</loc>
+        <lastmod>2014-02-05T08:32:36.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/aws-jp.html</loc>
+        <lastmod>2014-02-02T08:29:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/come-back-typecho.html</loc>
+        <lastmod>2014-01-26T08:28:02.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/Chinese-tkdomain.html</loc>
+        <lastmod>2013-09-27T22:28:46.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/happy-moonday.html</loc>
+        <lastmod>2013-09-18T14:29:09.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/new-domains.html</loc>
+        <lastmod>2013-08-25T20:23:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/comcure.html</loc>
+        <lastmod>2013-08-11T12:37:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/outdoor.html</loc>
+        <lastmod>2013-08-09T10:56:23.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/get-webssh.html</loc>
+        <lastmod>2013-07-25T20:16:43.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/android-x86.html</loc>
+        <lastmod>2013-07-23T17:00:55.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/china-domain.html</loc>
+        <lastmod>2013-07-17T16:19:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/back-china.html</loc>
+        <lastmod>2013-07-16T21:49:21.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/msdn-mirror.html</loc>
+        <lastmod>2013-07-14T19:14:05.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/crack-pass.html</loc>
+        <lastmod>2013-07-05T19:23:34.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/buy-domain.html</loc>
+        <lastmod>2013-07-02T20:42:12.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/korea-visitor.html</loc>
+        <lastmod>2013-07-01T21:23:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/domain-coop.html</loc>
+        <lastmod>2013-07-01T20:14:57.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/search-domain.html</loc>
+        <lastmod>2013-06-30T20:46:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/live-writer.html</loc>
+        <lastmod>2013-06-30T20:20:05.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/American-credit.html</loc>
+        <lastmod>2013-06-28T20:20:19.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/test-Windows8-preview1.html</loc>
+        <lastmod>2013-06-28T19:50:32.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/signal-linux-home.html</loc>
+        <lastmod>2013-06-28T19:47:06.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/new-windows.html</loc>
+        <lastmod>2013-06-27T18:46:59.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/nu-domain.html</loc>
+        <lastmod>2013-06-23T23:40:59.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/move-to-Phoenix.html</loc>
+        <lastmod>2013-06-21T23:07:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/freewebhostingarea.html</loc>
+        <lastmod>2013-06-15T20:02:39.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/hosts.html</loc>
+        <lastmod>2013-06-12T16:46:32.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/wordpress-move.html</loc>
+        <lastmod>2013-06-12T14:02:01.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/headache.html</loc>
+        <lastmod>2013-06-09T22:43:42.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://www.iloft.xyz/archives/ahfree.html</loc>
+        <lastmod>2013-06-09T13:20:01.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+</urlset>
+<!-- XML Sitemap generated by Hexo SEO Friendly Sitemap Generator -->
