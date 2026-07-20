@@ -1,6 +1,6 @@
 ::selection {
-    color: #FFFFFF;
-    background-color: #42b983;
+    color: $color-white;
+    background-color: $color-accent;
 }
 
 html, body {
@@ -10,12 +10,28 @@ html, body {
 
 body {
     margin: 0;
-    color: #34495e;
+    color: $color-ink;
     font-size: 15px;
-    line-height: 2.0;
-    background-color: #fff;
+    line-height: 2;
+    background-color: $color-paper;
     // font-family: 'sourcesanspro', 'Helvetica Neue', Arial, sans-serif;
-    font-family: 'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif;
+    font-family: $font-body;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    &:before {
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        content: '';
+        background-image: radial-gradient($color-rule-soft 0.7px, transparent 0.7px);
+        background-size: 18px 18px;
+        opacity: 0.32;
+    }
+}
+
+.wrap {
+    position: relative;
+    z-index: 1;
 }
 
 ul.nav,
@@ -30,14 +46,21 @@ ul {
 }
 
 a, a:active {
-    color: #2c3e50;
+    color: $color-ink;
     text-decoration: none;
+    transition: color $transition-base, border-color $transition-base, transform $transition-base, background-color $transition-base;
+}
+
+a:focus-visible {
+    outline: 2px solid $color-accent;
+    outline-offset: 4px;
+    box-shadow: 0 0 0 6px $color-focus-shadow;
 }
 
 a.nav-list-link.active,
 a.nav-list-link:hover,
 a.post-title-link:hover {
-    border-bottom: 2px solid #42b983;
+    border-bottom: 2px solid $color-accent;
 }
 
 hr {
@@ -47,8 +70,8 @@ hr {
 code {
     margin: 0 2px;
     padding: 3px 5px;
-    color: #e96900;
-    border-radius: 2px;
+    color: $color-code-orange;
+    border-radius: $radius-sm;
     white-space: inherit;
 }
 
@@ -62,7 +85,7 @@ table {
     width: 100%;
     margin: 1em auto;
     thead {
-        background-color: #ddd;
+        background-color: $color-paper-deep;
         th {
             padding: 5px;
             min-width: 20px;
@@ -70,7 +93,7 @@ table {
     }
     tbody {
         tr:nth-child(2n) {
-            background-color: #eee;
+            background-color: $color-paper-soft;
         }
         td {
             padding: 5px;

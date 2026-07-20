@@ -143,8 +143,8 @@ h1 {
  */
 
 mark {
-  background: #ff0;
-  color: #000;
+  background: $color-mark;
+  color: $color-black;
 }
 
 /**
@@ -374,7 +374,7 @@ input[type="search"]::-webkit-search-decoration {
  */
 
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid $color-form-border;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
