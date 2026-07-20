@@ -26,7 +26,15 @@ logo: /logo.svg
 #   serverURL: https://comments.iloft.xyz/waline
 
 giscus:
-  enable: true # if you want use giscus, please set enable: true
+  # Active on www.iloft.xyz; localhost failures are non-authoritative.
+  enable: true
+  repo: 0x04c11db7/blog
+  repo_id: MDEwOlJlcG9zaXRvcnk5MTQ0MTQ5Nw==
+  category: Announcements
+  category_id: DIC_kwDOBXNJWc4CT54-
+  mapping: pathname
+  theme: preferred_color_scheme
+  lang: zh-CN
 
 # Analytics
 # google-analytics:
