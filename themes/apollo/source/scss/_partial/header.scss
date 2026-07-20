@@ -1,25 +1,43 @@
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     min-height: 60px;
+    border-bottom: 1px solid $color-rule-soft;
 
     .logo-link {
-        float: left;
+        display: inline-flex;
+        align-items: center;
+        flex: 0 0 auto;
     }
     
     .nav {
-        float: right;
-        left: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        gap: $space-2 $space-5;
     }
 
     .logo-link img {
         height: 60px;
+        display: block;
     }
 
     .nav-list-item {
-        display: inline-block;
-        padding: 19px  10px ;
+        display: block;
+        padding: 0;
         a {
+            display: inline-block;
+            padding: $space-2 0;
+            color: $color-muted;
             font-size: 16px;
             line-height: 1.4;
+            letter-spacing: 0.08em;
+            &:hover,
+            &.active {
+                color: $color-ink;
+            }
         }
     }
 }

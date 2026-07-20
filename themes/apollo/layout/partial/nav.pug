@@ -1,8 +1,10 @@
 ul.nav.nav-list
     each value, key in theme.menu
         li.nav-list-item
-            - var re = /^(http|https):\/\/*/gi;
-            - var tar = re.test(value) ? "_blank" : "_self"
-            - var act = !re.test(value) && "/"+page.current_url === value
-            a.nav-list-link(class={active: act} href=url_for(value) target=tar)
+            - var re = /^https?:\/\//i;
+            - var isExternal = re.test(value)
+            - var tar = isExternal ? "_blank" : "_self"
+            - var rel = isExternal ? "noopener noreferrer" : false
+            - var act = !isExternal && "/"+page.current_url === value
+            a.nav-list-link(class={active: act} href=url_for(value) target=tar rel=rel)
                 != key.toUpperCase()
