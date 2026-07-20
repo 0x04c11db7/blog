@@ -1,17 +1,19 @@
 mixin home()
     - var prev = page.prev_link
     - var next = page.next_link
-    .paginator
-        if page.prev
-            a.prev(href=url_for(prev))!= __('prev') 
-        if page.next
-            a.next(href=url_for(next))!= __('next')
+    if page.prev || page.next
+        nav.paginator(aria-label='首页和归档分页')
+            if page.prev
+                a.prev(href=url_for(prev) aria-label='上一页')!= __('prev')
+            if page.next
+                a.next(href=url_for(next) aria-label='下一页')!= __('next')
 
 mixin post()
     - var prev = page.prev ? page.prev.path : false;
     - var next = page.next ? page.next.path : false; 
-    .paginator
-        if prev
-            a.prev(href=url_for(prev))!= __('prev_post')
-        if next
-            a.next(href=url_for(next))!= __('next_post')
+    if prev || next
+        nav.paginator.post-paginator(aria-label='文章分页')
+            if prev
+                a.prev(href=url_for(prev) aria-label='上一篇文章')!= __('prev_post')
+            if next
+                a.next(href=url_for(next) aria-label='下一篇文章')!= __('next_post')
