@@ -1,5 +1,5 @@
 main.container {
-    margin: 2em 10px;
+    margin: $space-6 10px;
 }
 
 @media screen and (min-width: 900px) {
@@ -12,23 +12,51 @@ main.container {
     }
 }
 
-@media screen and (max-width: 900px) {
-    .tagcloud {
-        display: none !important;
+@media screen and (min-width: 1121px) {
+    .post-detail.has-toc {
+        .post-reading {
+            display: grid;
+            grid-template-columns: $measure-toc minmax(0, $measure-article) $measure-toc;
+            gap: $space-6;
+            width: calc(#{$measure-toc} * 2 + #{$measure-article} + #{$space-6} * 2);
+            max-width: none;
+            margin-left: calc(50% - (#{$measure-toc} * 2 + #{$measure-article} + #{$space-6} * 2) / 2);
+            align-items: start;
+        }
+        .post-block {
+            grid-column: 2;
+        }
     }
+    .post-toc-disclosure {
+        display: none;
+    }
+    .post-toc-rail {
+        display: block;
+        grid-column: 3;
+    }
+}
+
+@media screen and (max-width: 900px) {
     .wrap {
         width: 100%;
     }
     header {
-        padding: 20px 0;
+        align-items: center;
+        flex-direction: column;
+        gap: $space-3;
+        padding: 20px 10px;
         a.logo-link,
         ul.nav.nav-list {
             float: none;
-            display: block;
+            display: flex;
             text-align: center;
         }
+        ul.nav.nav-list {
+            justify-content: center;
+            gap: $space-2 $space-4;
+        }
         li.nav-list-item {
-            padding: 10px 10px;
+            padding: 0;
         }
     }
     main.container,
@@ -36,17 +64,95 @@ main.container {
     .archive {
         margin-top: 0;
     }
-    .archive .post-item {
-        padding-left: 20px;
+    .archive {
+        margin-right: 10px;
+        margin-left: 10px;
     }
     .post-content {
         h2, h3, h4, h5, h6 {
-            max-width: 300px;
-            left: 15px;
+            max-width: none;
+            left: auto;
+            .headerlink:before {
+                position: static;
+                display: inline-block;
+                margin-right: $space-2;
+            }
         }
     }
+    .post-reading {
+        max-width: none;
+    }
+    .home.post-list {
+        margin-bottom: $space-7;
+        .post-list-item {
+            padding: $space-6 0 $space-6 48px;
+            &:before {
+                top: $space-6;
+            }
+            &:after {
+                display: none;
+            }
+        }
+        .post-title {
+            font-size: 1.55rem;
+            overflow-wrap: anywhere;
+        }
+    }
+    .post-block .post-title {
+        font-size: 1.65rem;
+    }
     .ds-thread,
-    #disqus_thread {
-        margin: 2em 10px;
+    #disqus_thread,
+    #waline,
+    #vcomments,
+    .comments {
+        margin: $space-6 0 0;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .post-detail.has-toc .post-reading {
+        display: block;
+        width: auto;
+        max-width: $measure-article;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .post-toc-disclosure {
+        display: block;
+    }
+    .post-toc-rail {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .archive-index .post-item {
+        grid-template-columns: 1fr;
+        gap: $space-1;
+    }
+    .surface-links .post-content ul {
+        columns: 1;
+    }
+    .surface-about .post-content img {
+        width: min(86%, 360px);
+    }
+    .paginator {
+        flex-direction: column;
+        gap: $space-2;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *:before,
+    *:after {
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 1ms !important;
+    }
+    .home.post-list .post-list-item {
+        transform: none;
     }
 }
