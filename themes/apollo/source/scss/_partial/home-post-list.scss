@@ -1,13 +1,64 @@
 .home.post-list {
-    margin: 2em 0;
+    margin: $space-7 0 $space-8;
+    counter-reset: atelier-post;
     .post-list-item {
-        padding: 1em 0 2em;
-        border-bottom: 1px solid #ddd;
+        position: relative;
+        counter-increment: atelier-post;
+        padding: $space-7 0 $space-7 84px;
+        border-bottom: 1px solid $color-rule;
+        animation: atelier-reveal 560ms ease both;
+        &:before {
+            position: absolute;
+            top: $space-7;
+            left: 0;
+            content: counter(atelier-post, decimal-leading-zero);
+            color: $color-accent-dark;
+            font-family: $font-display;
+            font-size: 0.9rem;
+            letter-spacing: 0.18em;
+            line-height: 1;
+        }
+        &:after {
+            position: absolute;
+            top: calc(#{$space-7} + 0.55rem);
+            left: 44px;
+            width: 24px;
+            height: 1px;
+            content: '';
+            background-color: $color-rule;
+        }
         &:last-child {
-            border-bottom: 0px;
+            border-bottom: 0;
+        }
+        @for $i from 1 through 8 {
+            &:nth-child(#{$i}) {
+                animation-delay: #{($i - 1) * 80}ms;
+            }
         }
     }
+    .post-title {
+        margin: 0 0 $space-3;
+        font-size: 2.15rem;
+        line-height: 1.35;
+        letter-spacing: 0.01em;
+    }
+    .post-title-link {
+        display: inline;
+        background-image: linear-gradient($color-accent, $color-accent);
+        background-position: 0 100%;
+        background-repeat: no-repeat;
+        background-size: 0 2px;
+        border-bottom: 0;
+        &:hover {
+            border-bottom: 0;
+            background-size: 100% 2px;
+        }
+    }
+    .post-info {
+        margin: $space-3 0 $space-5;
+    }
     .post-content{
+        color: $color-ink-soft;
         h2, h3, h4, h5, h6 {
             &:before {
                 content: '';
@@ -18,6 +69,29 @@
         }
     }
     .read-more {     
-        color: #42b983;
+        display: inline-flex;
+        align-items: center;
+        gap: $space-2;
+        margin-top: $space-3;
+        color: $color-accent-dark;
+        letter-spacing: 0.08em;
+        &:after {
+            content: '→';
+            transition: transform $transition-base;
+        }
+        &:hover:after {
+            transform: translateX(4px);
+        }
+    }
+}
+
+@keyframes atelier-reveal {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
