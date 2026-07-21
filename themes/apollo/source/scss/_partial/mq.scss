@@ -127,6 +127,18 @@ main.container {
 }
 
 @media screen and (max-width: 640px) {
+    .home.post-list {
+        .post-list-item {
+            padding: $space-6 0;
+            &:before {
+                position: static;
+                display: block;
+                margin-bottom: $space-3;
+                font-size: 0.78rem;
+                letter-spacing: 0.12em;
+            }
+        }
+    }
     .archive-index .post-item {
         grid-template-columns: 1fr;
         gap: $space-1;
