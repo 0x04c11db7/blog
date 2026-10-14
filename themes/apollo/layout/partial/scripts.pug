@@ -1,6 +1,21 @@
 //- LaTex
 //script(async src="/js/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" crossorigin="anonymous")
 
+if is_post()
+    script.
+        document.querySelectorAll('.post-detail .post-content img[src]').forEach(function (image) {
+            if (image.closest('a')) return;
+            var link = document.createElement('a');
+            link.className = 'post-image-link';
+            link.href = image.src;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.title = '查看原图（新标签页）';
+            link.setAttribute('aria-label', (image.alt ? image.alt + '：' : '') + link.title);
+            image.replaceWith(link);
+            link.appendChild(image);
+        });
+
 //- Analytics tracking
 - var ga = theme.ga
 if ga

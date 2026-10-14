@@ -26,6 +26,9 @@
         span {
             margin-left: 0.5rem;
         }
+        .post-updated {
+            display: inline-block;
+        }
         a.post-from {
             margin-left: 0.5rem;
             padding: $space-1 $space-2;
@@ -89,6 +92,11 @@
             color: $color-accent;
             border-bottom-color: $color-accent;
         }
+    }
+    a.post-image-link {
+        display: block;
+        border-bottom: 0;
+        cursor: zoom-in;
     }
     blockquote {
         margin: $space-6 0;
@@ -317,7 +325,7 @@ pre {
     position: absolute;
     top: 0;
     right: 0;
-    color: $color-muted-light;
+    color: $color-code-comment;
     text-align: right;
     font-size: 0.75em;
     padding: $space-1 $space-3 0;
@@ -373,7 +381,7 @@ pre {
     .symbol .string,
     .value,
     .regexp {
-        color: $color-accent;
+        color: $color-code-green;
     }
     .title {
         color: $color-code-lime;
@@ -402,7 +410,7 @@ pre {
     .apache .cbracket,
     .tex .command,
     .prompt {
-        color: $color-accent;
+        color: $color-code-green;
     }
     .comment,
     .java .annotation,
@@ -416,7 +424,7 @@ pre {
         color: $color-code-comment;
     }
     .deletion {
-        color: $color-danger;
+        color: $color-code-red;
     }
     .coffeescript .javascript,
     .javascript .xml,
@@ -425,6 +433,6 @@ pre {
     .xml .vbscript,
     .xml .css,
     .xml .cdata {
-        opacity: 0.5;
+        opacity: 1;
     }
 }

@@ -1,6 +1,10 @@
 mixin postInfo(item)
     .post-info
-        != full_date(item.date, 'll')
+        time(datetime=date_xml(item.date))= full_date(item.date, 'll')
+        if is_post() && item.updated && date(item.updated, 'YYYY-MM-DD') > date(item.date, 'YYYY-MM-DD')
+            span.post-updated
+                = __('updated') + ' '
+                time(datetime=date_xml(item.updated))= full_date(item.updated, 'll')
         if item.from && (is_home() || is_post())
             a.post-from(href=item.from target="_blank" rel="noopener noreferrer" title=item.from)!= __('translated')
 
@@ -16,7 +20,11 @@ mixin posts()
                             != item.title
                     +postInfo(item)
                     .post-content
-                        != item.excerpt
+                        if item.summary
+                            p= truncate(item.summary, { length: 140 })
+                        else
+                            - var summary = strip_html(item.excerpt || item.content).replace(/&(?:emsp|ensp|nbsp);/g, ' ').replace(/\s+/g, ' ').trim()
+                            p!= truncate(summary, { length: 140 })
                     a.read-more(href= url_for(item.path) aria-label=__('more') + ': ' + item.title)!= __('more')
         - })
 
@@ -47,7 +55,8 @@ mixin post(item)
             article.post-block
                 h1.post-title
                     != item.title
-                +postInfo(item)
+                if isArticlePost
+                    +postInfo(item)
                 if hasToc
                     details.post-toc-disclosure
                         summary= '目录'

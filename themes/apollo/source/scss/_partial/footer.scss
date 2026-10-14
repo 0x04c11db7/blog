@@ -29,6 +29,36 @@
     }
 }
 
+.post-paginator {
+    max-width: $measure-article;
+    padding-right: $space-5;
+    padding-left: $space-5;
+    .prev,
+    .next {
+        flex: 1;
+        min-width: 0;
+        align-items: flex-start;
+        text-align: left;
+        > span {
+            min-width: 0;
+        }
+    }
+    .next {
+        justify-content: flex-end;
+        text-align: right;
+    }
+    .post-nav-label,
+    .post-nav-title {
+        display: block;
+    }
+    .post-nav-title {
+        margin-top: $space-1;
+        color: $color-ink;
+        overflow-wrap: anywhere;
+        line-height: 1.6;
+    }
+}
+
 .ds-thread,
 #disqus_thread,
 #waline,

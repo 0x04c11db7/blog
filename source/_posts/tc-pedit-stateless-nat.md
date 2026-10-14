@@ -2,6 +2,7 @@
 title: TC Pedit 实现无状态 NAT
 date: 2024-09-20 10:36:51
 tags: Network
+summary: 为了让 TCP 回程数据包走不同的路由，尝试用 Linux TC 的 Pedit 修改源和目标 IP。记录如何在 egress 方向匹配数据包、改写地址并重新计算校验和，实现不依赖 Conntrack 的无状态 NAT。
 ---
 　　最近有一个需求，修改 TCP 回程数据包的 SRC 和 DST IP 使与去程走不一样的路由。第一反应是使用 iptables 做 SNAT 和 DNAT，但是实测发现 iptables 是基于 Conntrack 实现的，对回程数据包并不生效。因为曾经用 XDP 实现过 LB，准备再次使用 XDP 写个小程序实现。
 

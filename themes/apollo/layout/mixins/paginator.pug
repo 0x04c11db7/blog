@@ -14,6 +14,12 @@ mixin post()
     if prev || next
         nav.paginator.post-paginator(aria-label='文章分页')
             if prev
-                a.prev(href=url_for(prev) aria-label='上一篇文章')!= __('prev_post')
+                a.prev(href=url_for(prev))
+                    span
+                        span.post-nav-label= __('prev_post')
+                        span.post-nav-title= page.prev.title
             if next
-                a.next(href=url_for(next) aria-label='下一篇文章')!= __('next_post')
+                a.next(href=url_for(next))
+                    span
+                        span.post-nav-label= __('next_post')
+                        span.post-nav-title= page.next.title
